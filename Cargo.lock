@@ -1026,6 +1026,7 @@ dependencies = [
 name = "rust-axum-rest-api"
 version = "0.1.0"
 dependencies = [
+ "dotenvy",
  "sqlx",
  "tokio",
 ]
