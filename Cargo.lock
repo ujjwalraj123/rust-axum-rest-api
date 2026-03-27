@@ -1169,6 +1169,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "route"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "76b77602a5a0b6c0739fd6f14d5c59ab900a596a0f6c4a9ecc9e4acd0c92b296"
+
+[[package]]
 name = "rsa"
 version = "0.9.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1194,6 +1200,7 @@ version = "0.1.0"
 dependencies = [
  "axum",
  "dotenvy",
+ "route",
  "serde",
  "sqlx",
  "tokio",
